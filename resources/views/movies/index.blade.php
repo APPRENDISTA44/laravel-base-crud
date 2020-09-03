@@ -5,4 +5,7 @@
   <li>Titolo: {{$movie->titolo}} <a href="{{route('movies.show', $movie->id)}}">Dettagli</a> </li>
   @endforeach
   </ul>
+  
+  <a href="{{ route('movies.create') }}">Create new movie</a>
+
 </div>
